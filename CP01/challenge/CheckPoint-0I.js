@@ -62,8 +62,6 @@ const persona = {
   ciudad: "Buenos Aires",
 };
 
-console.log(persona);
-
 module.exports = {
   nombre,
   edad,
