@@ -77,7 +77,7 @@ let puntaje = 80;
 
 // Escribí tu código acá abajo:
 
-let resultado = >= 70 ? "Aprobado" : "Reprobado";
+let resultado = puntaje >= 70 ? "Aprobado" : "Reprobado";
 console.log(resultado);
 
 // Exporta las variables para que estén disponibles para otros módulos
