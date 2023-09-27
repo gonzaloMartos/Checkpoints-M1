@@ -2,17 +2,52 @@
 
 // Escribí tu código acá abajo:
 
+const num1 = 2;
+
+if(num1 >= 0){
+  console.log("es positivo");
+}else{
+  console.log("es negativo");
+}
+
 // Ejercicio 2: Utilizar una declaración if para determinar si un número es par o impar.
 
 // Escribí tu código acá abajo:
+
+const num2 = 4;
+
+if(num2 % 2 === 0){
+  console.log("es par");
+}else{
+  console.log("es impar");
+}
 
 // Ejercicio 3: Utilizar una declaración if para determinar si un número es mayor, menor o igual a otro.
 
 // Escribí tu código acá abajo:
 
+const num3 = 5;
+const num4 = 10;
+
+if(num3 > num4){
+  console.log("es mayor");
+}else if(num3 < num4){
+  console.log("es menor");
+}else if(num3 = num4){
+  console.log("es igual");
+}
+
 // Ejercicio 4: Utilizar una declaración if para verificar si una persona es mayor de edad (mayor o igual a 18 años).
 
 // Escribí tu código acá abajo:
+
+const años = 12;
+
+if(años >= 18){
+  console.log("es mayor de edad");
+}else{
+  console.log("es menor de edad");
+}
 
 // Ejercicio 5: Utilizar una declaración if para determinar si un número es divisible por 3 y 5 al mismo tiempo.
 

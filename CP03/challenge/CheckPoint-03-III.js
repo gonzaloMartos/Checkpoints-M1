@@ -45,6 +45,11 @@ let num = 1;
 
 // Escribí tu código acá abajo:
 
+do{
+  suma += num;
+  num++; 
+}while(num <= 5);
+
 // Ejercicio 5: Utilizar un bucle do...while para calcular el producto de los números del 1 al 5.
 
 let producto = 1;
@@ -52,6 +57,11 @@ let producto = 1;
 let num2 = 1;
 
 // Escribí tu código acá abajo:
+
+do{
+  producto *= num2;
+  num2++; 
+}while (num2 <= 5);
 
 // Ejercicio 6: Utilizar un bucle do...while para imprimir los elementos de un arreglo "frutas".
 
@@ -63,6 +73,11 @@ let index = 0;
 
 // Escribí tu código acá abajo:
 
+do{
+  console.log(frutas[index]);
+  index++; 
+}while (index < frutas.length);
+
 // Ejercicio 7: Utilizar un bucle do...while para encontrar el índice de la primera ocurrencia de "banana" en el arreglo "frutas".
 
 // Terminar el bucle cuando se encuentre la primera ocurrencia
@@ -72,6 +87,14 @@ let indiceBanana = -1;
 let m = 0;
 
 // Escribí tu código acá abajo:
+
+do{
+   if (frutas[m] === "banana") {
+    indiceBanana = m;
+    break;
+    }
+    m++;
+}while (m < frutas.length);
 
 // Ejercicio 8: Utilizar un bucle do...while para sumar los elementos de un arreglo "numeros".
 
@@ -83,6 +106,11 @@ let n1 = 0;
 
 // Escribí tu código acá abajo:
 
+do{
+   sumaNumeros += numeros[n1];
+  n1++;
+}while (n1 < numeros.length);
+
 // Ejercicio 9: Utilizar un bucle do...while para imprimir los números del 10 al 1 en orden descendente.
 
 let resultado9 = "";
@@ -90,6 +118,11 @@ let resultado9 = "";
 let num3 = 10;
 
 // Escribí tu código acá abajo:
+
+do{
+  console.log(num3);
+  num3--; 
+}while(num3 >= 1);
 
 // Ejercicio 10: Utilizar un bucle do...while para calcular la potencia de 2 elevado a la n, donde n es un número.
 
@@ -100,6 +133,11 @@ let potencia = 1;
 let exponente = 1;
 
 // Escribí tu código acá abajo:
+
+do{
+  potencia *= 2;
+  exponente++;
+}while (exponente <= n);
 
 // Exporta las variables para que estén disponibles para otros módulos
 module.exports = {
