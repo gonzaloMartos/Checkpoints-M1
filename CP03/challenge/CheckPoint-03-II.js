@@ -4,7 +4,11 @@ let i = 1;
 
 // Escribí tu código acá abajo:
 
-while (i <= 5) {}
+while (i <= 5) {
+  console.log(i);
+  i++;
+  resultado1 += i + " ";
+}
 
 // Ejercicio 2: Utilizar un bucle while para imprimir los números pares del 2 al 10.
 let resultado2 = "";

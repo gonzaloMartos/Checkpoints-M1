@@ -106,14 +106,13 @@ for (let i = 10; i >= 1; i--) {
 
 // Ejercicio 10: Utilizar un bucle for para calcular la potencia de 2 elevado a la n, donde n es un número.
 let n = 4; // Cambia el valor de n según lo necesites
+let potencia = 1;
 
 // Escribí tu código acá abajo:
 
-let potencia = 1;
-
 for (let i = 1; i <= n; i++) {
-    potencia *= 2;
-
+  potencia *= 2;
+}
 
 // Exporta las variables para que estén disponibles para otros módulos
 module.exports = {
