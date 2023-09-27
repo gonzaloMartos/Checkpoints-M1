@@ -6,6 +6,11 @@ let i = 1;
 
 // Escribí tu código acá abajo:
 
+do{
+  console.log(i);
+  i++;
+}while(i<=5);
+
 // Ejercicio 2: Utilizar un bucle do...while para imprimir los números pares del 2 al 10.
 
 let resultado2 = "";
@@ -14,6 +19,11 @@ let j = 2;
 
 // Escribí tu código acá abajo:
 
+do{
+  console.log(j);
+  j+=2;
+}while(i<=10);
+
 // Ejercicio 3: Utilizar un bucle do...while para imprimir los números impares del 1 al 9.
 
 let resultado3 = "";
@@ -21,6 +31,11 @@ let resultado3 = "";
 let k = 1;
 
 // Escribí tu código acá abajo:
+
+do{
+  console.log(k);
+  k+=2;
+}while(k<=9);
 
 // Ejercicio 4: Utilizar un bucle do...while para calcular la suma de los números del 1 al 5.
 

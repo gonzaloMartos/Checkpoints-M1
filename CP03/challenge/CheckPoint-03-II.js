@@ -7,7 +7,6 @@ let i = 1;
 while (i <= 5) {
   console.log(i);
   i++;
-  resultado1 += i + " ";
 }
 
 // Ejercicio 2: Utilizar un bucle while para imprimir los números pares del 2 al 10.
@@ -17,6 +16,11 @@ let j = 2;
 
 // Escribí tu código acá abajo:
 
+while(j <= 10){
+  console.log(resultado2);
+  j += 2;
+}
+
 // Ejercicio 3: Utilizar un bucle while para imprimir los números impares del 1 al 9.
 
 let resultado3 = "";
@@ -24,6 +28,11 @@ let resultado3 = "";
 let k = 1;
 
 // Escribí tu código acá abajo:
+
+while(k <= 9){
+  console.log(resultado3);
+  k += 2;
+}
 
 // Ejercicio 4: Utilizar un bucle while para calcular la suma de los números del 1 al 5.
 
@@ -33,6 +42,11 @@ let num = 1;
 
 // Escribí tu código acá abajo:
 
+while(num <= 5){
+  suma += num;
+  num++;
+}
+
 // Ejercicio 5: Utilizar un bucle while para calcular el producto de los números del 1 al 5.
 
 let producto = 1;
@@ -40,6 +54,11 @@ let producto = 1;
 let num2 = 1;
 
 // Escribí tu código acá abajo:
+
+while (num2 <= 5) {
+  producto *= num2;
+  num2++;
+}
 
 // Ejercicio 6: Utilizar un bucle while para imprimir los elementos de un arreglo "frutas".
 
@@ -51,6 +70,11 @@ let index = 0;
 
 // Escribí tu código acá abajo:
 
+while (index < frutas.length) {
+  console.log(frutas[index]);
+  index++;
+}
+
 // Ejercicio 7: Utilizar un bucle while para encontrar el índice de la primera ocurrencia de "banana" en el arreglo "frutas".
 
 // Terminar el bucle cuando se encuentre la primera ocurrencia
@@ -60,6 +84,14 @@ let indiceBanana = -1;
 let m = 0;
 
 // Escribí tu código acá abajo:
+
+while (m < frutas.length) {
+  if (frutas[m] === "banana") {
+    indiceBanana = m;
+    break;
+  }
+  m++;
+}
 
 // Ejercicio 8: Utilizar un bucle while para sumar los elementos de un arreglo "numeros".
 
@@ -71,6 +103,11 @@ let n1 = 0;
 
 // Escribí tu código acá abajo:
 
+while (n1 < numeros.length) {
+  sumaNumeros += numeros[n1];
+  n1++;
+}
+
 // Ejercicio 9: Utilizar un bucle while para imprimir los números del 10 al 1 en orden descendente.
 
 let resultado9 = "";
@@ -79,12 +116,22 @@ let num3 = 10;
 
 // Escribí tu código acá abajo:
 
+while(num3 >= 1){
+  console.log(num3);
+  num3--;
+}
+
 // Ejercicio 10: Utilizar un bucle while para calcular la potencia de 2 elevado a la n, donde n es un número.
 let n = 4; // Cambia el valor de n según lo necesites
 let potencia = 1;
 let exponente = 1;
 
 // Escribí tu código acá abajo:
+
+while (exponente <= n) {
+  potencia *= 2;
+  exponente++;
+}
 
 // Exporta las variables para que estén disponibles para otros módulos
 module.exports = {
